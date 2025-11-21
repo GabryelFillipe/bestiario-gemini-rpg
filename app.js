@@ -1,14 +1,14 @@
 'use strict'
 const cardContainer = document.getElementById("card-container")
 const campoBusca = document.querySelector('.header-input') 
+const botaoBuscaElemento = document.getElementById('botao-busca')
 let dados = []
-
 
 async function iniciarBusca() {
     if (dados.length === 0) {
         try {
-            let resposta = await fetch("data.json");
-            dados = await resposta.json();
+            let resposta = await fetch("data.json")
+            dados = await resposta.json()
         } catch (error) {
             console.error("Falha ao buscar dados:", error)
             return
@@ -16,11 +16,11 @@ async function iniciarBusca() {
     }
     
     if (!campoBusca) {
-        console.error("Campo de busca não encontrado no HTML");
+        console.error("Campo de busca não encontrado no HTML")
         return
     }
 
-    const termoBusca = campoBusca.value.toLowerCase();
+    const termoBusca = campoBusca.value.toLowerCase()
     
     const dadosFiltrados = dados.filter(dado => 
         dado.nome.toLowerCase().includes(termoBusca) ||
@@ -40,7 +40,13 @@ function renderizarCards(dados) {
             const imagem = document.createElement('img')
             imagem.src = item.imagem
             imagem.alt = item.nome
-            imagem.classList.add('card-imagem') 
+            imagem.classList.add('card-imagem')
+            
+            imagem.onerror = function() {
+                this.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Old_Book_Bindings.jpg/640px-Old_Book_Bindings.jpg'
+                this.alt = "Imagem indisponível - Consulte o grimório"
+            }
+            
             article.appendChild(imagem)
         }
 
@@ -68,3 +74,17 @@ function renderizarCards(dados) {
 }
 
 iniciarBusca()
+
+campoBusca.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        iniciarBusca()
+    }
+})
+
+document.addEventListener('click', function(event) {
+    const clicouFora = !campoBusca.contains(event.target) && !botaoBuscaElemento.contains(event.target)
+
+    if (clicouFora) {
+        iniciarBusca()
+    }
+})

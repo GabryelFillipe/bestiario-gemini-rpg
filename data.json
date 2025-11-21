@@ -43,37 +43,170 @@
   },
   {
     "nome": "Quimera",
-    "descricao": "Uma criatura híbrida da Mitologia Grega com cabeça de leão, corpo de cabra e cauda de serpente, capaz de cuspir fogo. Sua destruição foi um feito de Belerofonte.",
-    "ano": "c. 700 a.C.",
-    "link": "Mitologia Grega",
+    "descricao": "Uma criatura híbrida com cabeça de leão, corpo de cabra e cauda de serpente.",
+    "ano": "Mitologia Grega",
+    "link": "https://pt.wikipedia.org/wiki/Quimera",
     "imagem": "https://image.pollinations.ai/prompt/Quimera%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
   },
   {
     "nome": "Jörmungandr",
-    "descricao": "Na Mitologia Nórdica, é a Serpente de Midgard, uma das filhas de Loki. É tão grande que circunda o mundo e morde a própria cauda, prenunciando o Ragnarök.",
-    "ano": "Era Viking",
-    "link": "Mitologia Nórdica",
-    "imagem": "https://image.pollinations.ai/prompt/J%C3%B6rmungandr%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+    "descricao": "A Serpente de Midgard, tão grande que circunda o mundo e morde a própria cauda.",
+    "ano": "Mitologia Nórdica",
+    "link": "https://pt.wikipedia.org/wiki/Jormungand",
+    "imagem": "https://image.pollinations.ai/prompt/J%C3%B6rmungandr%20giant%20snake%20ocean%20fantasy%20art%20rpg%20style%20detailed"
   },
   {
     "nome": "Bennu",
-    "descricao": "Uma ave solar da Mitologia Egípcia, similar a uma garça ou águia, associada ao deus Ra e aos ciclos de criação e renascimento, sendo precursora da Fênix grega.",
-    "ano": "Período Dinástico Inicial",
-    "link": "Mitologia Egípcia",
-    "imagem": "https://image.pollinations.ai/prompt/Bennu%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+    "descricao": "Ave solar associada ao deus Ra e aos ciclos de criação e renascimento.",
+    "ano": "Mitologia Egípcia",
+    "link": "https://pt.wikipedia.org/wiki/Bennu",
+    "imagem": "https://image.pollinations.ai/prompt/Bennu%20bird%20egyptian%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
   },
   {
     "nome": "Curupira",
-    "descricao": "Uma entidade do folclore indígena brasileiro (Tupi-Guarani), protetor das florestas e dos animais, reconhecível por seus cabelos vermelhos e pés virados para trás, que confunde caçadores.",
-    "ano": "Folclore Indígena",
-    "link": "Folclore Brasileiro",
-    "imagem": "https://image.pollinations.ai/prompt/Curupira%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+    "descricao": "Protetor das florestas de cabelos vermelhos e pés virados para trás.",
+    "ano": "Folclore Brasileiro",
+    "link": "https://pt.wikipedia.org/wiki/Curupira",
+    "imagem": "https://image.pollinations.ai/prompt/Curupira%20brazilian%20folklore%20forest%20guardian%20fantasy%20art%20rpg%20style%20detailed"
   },
   {
     "nome": "Mapinguari",
-    "descricao": "Uma criatura gigante e bípede, coberta de pelo, da floresta amazônica. É frequentemente descrito como um monstro de um olho só ou um tipo de preguiça gigante carnívora.",
+    "descricao": "Criatura gigante e bípede da Amazônia, com um olho só e boca na barriga.",
     "ano": "Folclore Amazônico",
-    "link": "Folclore Indígena",
+    "link": "https://pt.wikipedia.org/wiki/Mapinguari",
     "imagem": "https://image.pollinations.ai/prompt/Mapinguari%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+  },
+  {
+    "nome": "Pássaro do Trovão",
+    "descricao": "Ave gigante que cria trovões ao bater as asas e relâmpagos ao piscar os olhos.",
+    "ano": "Mitologia Indígena (EUA)",
+    "link": "https://pt.wikipedia.org/wiki/P%C3%A1ssaro_do_trov%C3%A3o",
+    "imagem": "https://image.pollinations.ai/prompt/Thunderbird%20mythological%20creature%20lightning%20storm%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Raiju",
+    "descricao": "O animal do trovão, companheiro de Raijin. Seu corpo é feito de eletricidade pura.",
+    "ano": "Mitologia Japonesa",
+    "link": "https://pt.wikipedia.org/wiki/Raiju",
+    "imagem": "https://image.pollinations.ai/prompt/Raiju%20lightning%20beast%20blue%20electricity%20wolf%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Impundulu",
+    "descricao": "Pássaro-Raio vampírico que invoca tempestades e relâmpagos.",
+    "ano": "Mitologia Africana",
+    "link": "https://en.wikipedia.org/wiki/Impundulu",
+    "imagem": "https://image.pollinations.ai/prompt/Impundulu%20lightning%20bird%20storm%20african%20mythology%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Kirin",
+    "descricao": "Criatura divina que anuncia a chegada de sábios. Frequentemente envolta em raios sagrados.",
+    "ano": "Mitologia Oriental",
+    "link": "https://pt.wikipedia.org/wiki/Qilin",
+    "imagem": "https://image.pollinations.ai/prompt/Kirin%20Qilin%20divine%20beast%20lightning%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Kraken",
+    "descricao": "Monstro marinho gigantesco, semelhante a uma lula, capaz de afundar navios inteiros.",
+    "ano": "Folclore Nórdico",
+    "link": "https://pt.wikipedia.org/wiki/Kraken",
+    "imagem": "https://image.pollinations.ai/prompt/Kraken%20giant%20squid%20attacking%20ship%20ocean%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Iara",
+    "descricao": "A mãe d'água, sereia amazônica que encanta homens com seu canto hipnótico.",
+    "ano": "Folclore Brasileiro",
+    "link": "https://pt.wikipedia.org/wiki/Iara",
+    "imagem": "https://image.pollinations.ai/prompt/Iara%20mermaid%20brazilian%20folklore%20river%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Leviatã",
+    "descricao": "Serpente marinha colossal e primordial, símbolo do caos e das profundezas oceânicas.",
+    "ano": "Mitologia Bíblica",
+    "link": "https://pt.wikipedia.org/wiki/Leviat%C3%A3",
+    "imagem": "https://image.pollinations.ai/prompt/Leviathan%20sea%20monster%20giant%20serpent%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Kappa",
+    "descricao": "Criatura travessa que habita rios e lagos, com um prato de água na cabeça que lhe dá força.",
+    "ano": "Mitologia Japonesa",
+    "link": "https://pt.wikipedia.org/wiki/Kappa_(folclore)",
+    "imagem": "https://image.pollinations.ai/prompt/Kappa%20japanese%20water%20monster%20river%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Kelpie",
+    "descricao": "Espírito aquático que assume a forma de um cavalo para atrair e afogar viajantes.",
+    "ano": "Mitologia Céltica",
+    "link": "https://pt.wikipedia.org/wiki/Kelpie",
+    "imagem": "https://image.pollinations.ai/prompt/Kelpie%20water%20horse%20spirit%20dark%20lake%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Golem",
+    "descricao": "Ser artificial feito de barro ou pedra, trazido à vida através de magia rúnica.",
+    "ano": "Folclore Judaico",
+    "link": "https://pt.wikipedia.org/wiki/Golem",
+    "imagem": "https://image.pollinations.ai/prompt/Golem%20clay%20monster%20magic%20rune%20earth%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Troll",
+    "descricao": "Gigantes de pedra que habitam cavernas e montanhas, transformando-se em rocha sob o sol.",
+    "ano": "Mitologia Nórdica",
+    "link": "https://pt.wikipedia.org/wiki/Troll",
+    "imagem": "https://image.pollinations.ai/prompt/Troll%20giant%20creature%20stone%20cave%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Gnomo",
+    "descricao": "Espíritos elementais da terra, guardiões de tesouros subterrâneos e minérios.",
+    "ano": "Alquimia Europeia",
+    "link": "https://pt.wikipedia.org/wiki/Gnomo",
+    "imagem": "https://image.pollinations.ai/prompt/Gnome%20earth%20elemental%20small%20creature%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Gárgula",
+    "descricao": "Monstro de pedra grotesco que ganha vida à noite para proteger catedrais e castelos.",
+    "ano": "Arquitetura Gótica",
+    "link": "https://pt.wikipedia.org/wiki/G%C3%A1rgula",
+    "imagem": "https://image.pollinations.ai/prompt/Gargoyle%20stone%20monster%20gothic%20cathedral%20night%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Basilisco",
+    "descricao": "O rei das serpentes, capaz de matar com um simples olhar ou com seu veneno mortal.",
+    "ano": "Mitologia Europeia",
+    "link": "https://pt.wikipedia.org/wiki/Basilisco",
+    "imagem": "https://image.pollinations.ai/prompt/Basilisk%20giant%20snake%20king%20stone%20gaze%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Pégaso",
+    "descricao": "Cavalo alado divino, símbolo da imortalidade e velocidade nos céus.",
+    "ano": "Mitologia Grega",
+    "link": "https://pt.wikipedia.org/wiki/P%C3%A9gaso",
+    "imagem": "https://image.pollinations.ai/prompt/Pegasus%20winged%20horse%20sky%20clouds%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Harpia",
+    "descricao": "Criaturas com corpo de ave e rosto de mulher, espíritos dos ventos súbitos e tempestades.",
+    "ano": "Mitologia Grega",
+    "link": "https://pt.wikipedia.org/wiki/Harpia_(mitologia)",
+    "imagem": "https://image.pollinations.ai/prompt/Harpy%20bird%20woman%20hybrid%20wind%20monster%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Leshy",
+    "descricao": "Espírito guardião das florestas que muda de tamanho e protege os animais selvagens.",
+    "ano": "Mitologia Eslava",
+    "link": "https://pt.wikipedia.org/wiki/Leshy",
+    "imagem": "https://image.pollinations.ai/prompt/Leshy%20forest%20spirit%20wood%20creature%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Dríade",
+    "descricao": "Ninfas ligadas às árvores, especificamente aos carvalhos. Sua vida está atada à sua árvore.",
+    "ano": "Mitologia Grega",
+    "link": "https://pt.wikipedia.org/wiki/Dr%C3%ADade",
+    "imagem": "https://image.pollinations.ai/prompt/Dryad%20tree%20spirit%20nature%20woman%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Saci-Pererê",
+    "descricao": "Travesso espírito das matas de uma perna só, viaja dentro de redemoinhos de vento.",
+    "ano": "Folclore Brasileiro",
+    "link": "https://pt.wikipedia.org/wiki/Saci",
+    "imagem": "https://image.pollinations.ai/prompt/Saci%20Perere%20brazilian%20folklore%20red%20cap%20pipe%20forest%20fantasy%20art%20rpg%20style"
   }
 ]
