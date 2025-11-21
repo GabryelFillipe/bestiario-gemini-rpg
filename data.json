@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Dragão",
+    "ano": "Folclore Global",
+    "descricao": "Grandes criaturas serpentinas aladas, capazes de cuspir fogo e conhecidas por sua cobiça por tesouros.",
+    "link": "https://pt.wikipedia.org/wiki/Drag%C3%A3o",
+    "imagem": "https://image.pollinations.ai/prompt/majestic%20dragon%20breathing%20fire%20fantasy%20art%20rpg%20style"
+  },
+  {
+    "nome": "Hidra de Lerna",
+    "ano": "Mitologia Grega",
+    "descricao": "Monstro aquático com múltiplas cabeças. Ao cortar uma, duas crescem no lugar.",
+    "link": "https://pt.wikipedia.org/wiki/Hidra_de_Lerna",
+    "imagem": "https://image.pollinations.ai/prompt/hydra%20monster%20many%20heads%20swamp%20fantasy%20art"
+  },
+  {
+    "nome": "Grifo",
+    "ano": "Mitologia Grega/Egípcia",
+    "descricao": "Criatura lendária com corpo de leão e cabeça e asas de águia. Guardião de ouro e riquezas.",
+    "link": "https://pt.wikipedia.org/wiki/Grifo",
+    "imagem": "https://image.pollinations.ai/prompt/griffin%20creature%20lion%20eagle%20hybrid%20fantasy%20art"
+  },
+  {
+    "nome": "Minotauro",
+    "ano": "Mitologia Grega",
+    "descricao": "Uma criatura com cabeça de touro e corpo de homem, aprisionada no labirinto de Creta.",
+    "link": "https://pt.wikipedia.org/wiki/Minotauro",
+    "imagem": "https://image.pollinations.ai/prompt/minotaur%20bull%20man%20labyrinth%20fantasy%20art"
+  },
+  {
+    "nome": "Fênix",
+    "ano": "Mitologia Grega/Egípcia",
+    "descricao": "Pássaro de fogo que, ao morrer, entra em autocombustão e renasce das próprias cinzas.",
+    "link": "https://pt.wikipedia.org/wiki/F%C3%AAnix",
+    "imagem": "https://image.pollinations.ai/prompt/phoenix%20bird%20fire%20rebirth%20fantasy%20art"
+  },
+  {
+    "nome": "Cérbero",
+    "ano": "Mitologia Grega",
+    "descricao": "O cão de três cabeças que guarda os portões do submundo, impedindo a saída dos mortos.",
+    "link": "https://pt.wikipedia.org/wiki/C%C3%A9rbero",
+    "imagem": "https://image.pollinations.ai/prompt/cerberus%20three%20headed%20dog%20underworld%20fantasy%20art"
+  },
+  {
+    "nome": "Quimera",
+    "descricao": "Uma criatura híbrida da Mitologia Grega com cabeça de leão, corpo de cabra e cauda de serpente, capaz de cuspir fogo. Sua destruição foi um feito de Belerofonte.",
+    "ano": "c. 700 a.C.",
+    "link": "Mitologia Grega",
+    "imagem": "https://image.pollinations.ai/prompt/Quimera%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+  },
+  {
+    "nome": "Jörmungandr",
+    "descricao": "Na Mitologia Nórdica, é a Serpente de Midgard, uma das filhas de Loki. É tão grande que circunda o mundo e morde a própria cauda, prenunciando o Ragnarök.",
+    "ano": "Era Viking",
+    "link": "Mitologia Nórdica",
+    "imagem": "https://image.pollinations.ai/prompt/J%C3%B6rmungandr%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+  },
+  {
+    "nome": "Bennu",
+    "descricao": "Uma ave solar da Mitologia Egípcia, similar a uma garça ou águia, associada ao deus Ra e aos ciclos de criação e renascimento, sendo precursora da Fênix grega.",
+    "ano": "Período Dinástico Inicial",
+    "link": "Mitologia Egípcia",
+    "imagem": "https://image.pollinations.ai/prompt/Bennu%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+  },
+  {
+    "nome": "Curupira",
+    "descricao": "Uma entidade do folclore indígena brasileiro (Tupi-Guarani), protetor das florestas e dos animais, reconhecível por seus cabelos vermelhos e pés virados para trás, que confunde caçadores.",
+    "ano": "Folclore Indígena",
+    "link": "Folclore Brasileiro",
+    "imagem": "https://image.pollinations.ai/prompt/Curupira%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+  },
+  {
+    "nome": "Mapinguari",
+    "descricao": "Uma criatura gigante e bípede, coberta de pelo, da floresta amazônica. É frequentemente descrito como um monstro de um olho só ou um tipo de preguiça gigante carnívora.",
+    "ano": "Folclore Amazônico",
+    "link": "Folclore Indígena",
+    "imagem": "https://image.pollinations.ai/prompt/Mapinguari%20mythological%20creature%20fantasy%20art%20rpg%20style%20detailed"
+  }
+]

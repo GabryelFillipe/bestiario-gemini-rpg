@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d4af37;
+    --secondary-color: #f5e6c8;
+    --tertiary-color: #8a0303;
+    --bg-color: #1a120b;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: "MedievalSharp", cursive;
+}
+
+header {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: var(--bg-color);
+    z-index: 10;
+    border-bottom: 2px solid var(--primary-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    gap: 1rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 500;
+    white-space: nowrap;
+    text-shadow: 2px 2px 0px #000;
+}
+
+div input {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--primary-color);
+    background: #0f0a06;
+    font-family: inherit;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    width: 25rem;
+    color: var(--secondary-color);
+    margin-right: .5rem;
+}
+
+div input::placeholder {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    opacity: 0.6;
+}
+
+div input:focus {
+    outline: none;
+    border-color: var(--tertiary-color);
+    box-shadow: 0 0 10px var(--tertiary-color);
+}
+
+#botao-busca {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+#botao-busca:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+main {
+    overflow-y: scroll;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    height: calc(100vh - 10rem);
+    scrollbar-width: none;
+}
+
+article.card {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #3c2f2f;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    column-gap: 2rem;
+    align-items: start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+article.card:hover {
+    border-color: var(--primary-color);
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.card-imagem {
+    grid-row: 1 / 6;
+    grid-column: 1;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 3px solid var(--primary-color);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+article h2,
+article p,
+article a {
+    grid-column: 2;
+    margin: 0;
+}
+
+article h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--tertiary-color);
+    padding-bottom: 0.2rem;
+    display: inline-block;
+}
+
+article p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #e0d5b9;
+}
+
+article p strong {
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+article a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    justify-self: start;
+    display: inline-block;
+    transition: 0.2s;
+    margin-top: 0.5rem;
+}
+
+article a:hover {
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    border-top: 1px solid var(--primary-color);
+    text-align: center;
+    z-index: 20;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    div input {
+        width: 100%;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    article.card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-imagem {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 1.5rem;
+    }
+
+    article h2 {
+        border-bottom: none;
+        font-size: 1.8rem;
+    }
+}
